@@ -9,14 +9,14 @@ void display(void) {
     float dx = X2 - X1;
     float dy = Y2 - Y1;
     float steps = (abs(dx) > abs(dy) ? abs(dx) : abs(dy));
-    dx = dx / steps;
-    dy = dy / steps;
+    float xinc = dx / steps;
+    float yinc = dy / steps;
     float x = X1, y = Y1;
     glClear(GL_COLOR_BUFFER_BIT);
     glBegin(GL_POINTS);
     while (steps--) {
-        x += dx;
-        y += dy;
+        x += xinc;
+        y += yinc;
         glVertex2f(x, y);
     }
     glEnd();
