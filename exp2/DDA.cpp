@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
      
     // Declares window size
-    glutInitWindowSize(1360, 768);
+    glutInitWindowSize(960, 540);
      
     // Declares window position which is (0, 0)
     // means lower left corner will indicate position (0, 0)
