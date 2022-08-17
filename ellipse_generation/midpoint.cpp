@@ -103,7 +103,7 @@ int main(int argc, char **argv) {
 	glutInitWindowPosition(0, 0);
 
 	// Name to window
-	glutCreateWindow("Ellipse using polynomial equation");
+	glutCreateWindow("Ellipse using midpoint algo");
 
 	// Call to myInit()
 	myInit();

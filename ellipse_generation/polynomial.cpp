@@ -77,7 +77,7 @@ int main(int argc, char **argv) {
 	glutInitWindowPosition(0, 0);
 
 	// Name to window
-	glutCreateWindow("Ellipse using parametric equation");
+	glutCreateWindow("Ellipse using polynomial equation");
 
 	// Call to myInit()
 	myInit();
